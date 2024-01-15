@@ -29,9 +29,9 @@ while user != q:
     
     # this is the portion of what will show up when you click your own profile in member list 
     bot.update(
-    # this will display the text associated
-    state=f'Enter custom text here', {elasped_text},
-    large_image='Picture image name here'
+        # this will display the text associated
+        state=f'Enter custom text here', {elasped_text},
+        large_image='Picture image name here'
     )
     
     time.sleep(1)
